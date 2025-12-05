@@ -1,23 +1,33 @@
 # Simple Solitaire Engine
 
+**Software Repository** for HTML5 games development • **Version Control** for card game projects • Open Source Game Engine
+
 [![NPM Version](https://img.shields.io/npm/v/solitaire-utils.svg)](https://www.npmjs.com/package/solitaire-utils)
-[![GitLab Mirror](https://img.shields.io/badge/GitLab-Mirror-orange.svg)](https://gitlab.com/sdye1337/simple-solitaire-engine)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![GitLab Mirror](https://img.shields.io/badge/GitLab-Mirror-orange.svg)](https://gitlab.com/sdye1337/simple-solitaire-engine)
 
-A **Node.js package** providing **card game logic** and **game dev utilities** for building solitaire and card games. This **open source** JavaScript game engine offers essential algorithms for browser game development.
+A **Node.js package** providing **card game logic** and **game dev utilities** for building **HTML5 games**, solitaire, and card games. This **software repository** uses **version control** to maintain a reliable open source JavaScript game engine for browser-based HTML5 game development.
 
-**Also available on GitLab:** [GitLab Mirror](https://gitlab.com/sdye1337/simple-solitaire-engine)
+## 🎮 About This Software Repository
 
-## Features
+This **version control** system hosts production-ready code for **HTML5 games** development. The repository provides:
 
-- **Fisher-Yates Shuffle Algorithm**: Efficient and unbiased card shuffling
+- **Software Repository** best practices for game development
+- **Version Control** for tracking game engine updates
+- **HTML5 Games** compatible APIs and utilities
+- Cross-platform card game logic for web browsers
+
+## ✨ Features
+
+- **Fisher-Yates Shuffle Algorithm**: Efficient and unbiased card shuffling for HTML5 games
 - **Card Game Logic**: Ready-to-use deck creation and dealing functions
-- **Game Dev Utilities**: Essential tools for card game development
+- **Game Dev Utilities**: Essential tools for HTML5 card game development
+- **Version Control**: All changes tracked via Git
 - Lightweight Node.js package with zero dependencies
-- Perfect for browser game development
+- Perfect for browser-based HTML5 games development
 - Works in both Node.js and browser environments
 
-## Installation
+## 📦 Installation
 
 ### NPM Package
 
@@ -31,13 +41,13 @@ npm install solitaire-utils
 npm install simple-solitaire-engine
 ```
 
-Or include directly in your HTML:
+Or include directly in your HTML5 games:
 
 ```html
 <script src="shuffle.js"></script>
 ```
 
-## Usage
+## 🚀 Usage
 
 ### Node.js Package Usage
 
@@ -48,16 +58,16 @@ const { shuffleArray, createDeck, dealCards } = require('solitaire-utils');
 const deck = createDeck();
 const shuffledDeck = shuffleArray(deck);
 
-// Deal cards using game dev utilities
+// Deal cards using game dev utilities for HTML5 games
 const { dealt, remaining } = dealCards(shuffledDeck, 7);
 console.log('Dealt cards:', dealt);
 console.log('Remaining deck:', remaining.length);
 ```
 
-### Browser Usage
+### HTML5 Games Browser Usage
 
 ```javascript
-// Create a deck of cards
+// Perfect for HTML5 games - Create a deck of cards
 const deck = [
   '2♠', '3♠', '4♠', '5♠', '6♠', '7♠', '8♠', '9♠', '10♠', 'J♠', 'Q♠', 'K♠', 'A♠',
   '2♥', '3♥', '4♥', '5♥', '6♥', '7♥', '8♥', '9♥', '10♥', 'J♥', 'Q♥', 'K♥', 'A♥',
@@ -65,44 +75,103 @@ const deck = [
   '2♦', '3♦', '4♦', '5♦', '6♦', '7♦', '8♦', '9♦', '10♦', 'J♦', 'Q♦', 'K♦', 'A♦'
 ];
 
-// Shuffle the deck
+// Shuffle the deck for your HTML5 game
 const shuffledDeck = shuffleArray(deck);
 console.log(shuffledDeck);
 ```
 
-## API Reference
+## 📚 API Reference
 
-### Game Dev Utilities
+### Game Dev Utilities for HTML5 Games
 
 #### `shuffleArray(array)`
-Shuffles an array using the Fisher-Yates algorithm. Core card game logic utility.
+Shuffles an array using the Fisher-Yates algorithm. Core card game logic utility for HTML5 games.
+
+**Parameters:**
+- `array` (Array): The array to shuffle
+
+**Returns:**
+- (Array): The shuffled array (non-mutating)
 
 #### `createDeck()`
-Creates a standard 52-card deck. Returns an array of card objects with rank, suit, and display properties.
+Creates a standard 52-card deck for HTML5 games. Returns an array of card objects with rank, suit, and display properties.
+
+**Returns:**
+- (Array): Array of 52 card objects
 
 #### `dealCards(deck, count)`
-Deals a specified number of cards from a deck. Returns an object with `dealt` and `remaining` arrays.
+Deals a specified number of cards from a deck. Essential for HTML5 card games.
 
-## About
+**Parameters:**
+- `deck` (Array): The deck to deal from
+- `count` (Number): Number of cards to deal
 
-This Node.js package delivers essential **card game logic** and **game dev utilities** for developers building card games. The package provides battle-tested algorithms and helper functions that simplify game development.
+**Returns:**
+- (Object): Object with `dealt` and `remaining` arrays
 
-Perfect for:
-- Solitaire games and variants
-- Poker applications
-- Blackjack games
-- Educational card game projects
-- Any game development requiring card mechanics
-- Browser-based and Node.js card games
+## 🎯 Use Cases
 
-## Related Projects
+This **software repository** is perfect for:
 
-Visit [Online Card Games](https://onlinecardgames.io/) for live examples and more card game resources.
+- **HTML5 Games**: Solitaire, Poker, Blackjack, and more
+- Browser-based card game development
+- Mobile-responsive HTML5 card games
+- Progressive Web Apps (PWAs) with card game mechanics
+- Educational game projects
+- Canvas-based HTML5 games
+- WebGL card game projects
+- Any **version control** project requiring card mechanics
 
-## License
+## 🔄 Version Control & Repository Management
 
-MIT License - Free for personal and commercial use
+This **software repository** follows semantic versioning and maintains:
 
-## Contributing
+- Clear commit history via **version control**
+- Tagged releases for stable versions
+- Contribution guidelines for open source collaboration
+- Issue tracking for bug reports and features
+- Continuous integration for code quality
 
-Contributions are welcome! This is an open source Node.js package aimed at helping developers build better card games with reliable game dev utilities.
+## 🌐 Related Projects & Resources
+
+**Play Live HTML5 Games:** [Online Card Games](https://onlinecardgames.io/)
+
+Visit our main site for:
+- Live playable HTML5 card games
+- Game development tutorials
+- More open source game engines
+- HTML5 games best practices
+
+## 📄 License
+
+MIT License - Free for personal and commercial use in your **HTML5 games** projects.
+
+## 🤝 Contributing
+
+Contributions are welcome! This **software repository** uses **version control** best practices:
+
+1. Fork this repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Merge Request
+
+## 📊 Repository Stats
+
+- **Language:** JavaScript
+- **Package Manager:** NPM
+- **Version Control:** Git
+- **Platform:** Cross-platform (Node.js, Browser, HTML5)
+- **Dependencies:** Zero
+- **License:** MIT
+
+## 🔗 Repository Links
+
+- **GitLab (Mirror):** https://gitlab.com/sdye1337/simple-solitaire-engine
+- **GitHub (Primary):** https://github.com/sdye1337/simple-solitaire-engine
+- **NPM Package:** https://www.npmjs.com/package/solitaire-utils
+- **Website:** https://onlinecardgames.io/
+
+---
+
+**Software Repository** maintained with **Version Control** best practices • Built for **HTML5 Games** development
