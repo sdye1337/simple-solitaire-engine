@@ -1,6 +1,6 @@
 # Simple Solitaire Engine
 
-**Software Repository** for HTML5 games development • **Version Control** for card game projects • Open Source Game Engine..
+**Software Repository** for HTML5 games development • **Version Control** for card game projects • Open Source Game Engine
 
 [![NPM Version](https://img.shields.io/npm/v/solitaire-utils.svg)](https://www.npmjs.com/package/solitaire-utils)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
